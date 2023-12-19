@@ -26,7 +26,8 @@ function App() {
   }
 
   return (
-    <div
+  <>
+      <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat bg-blue-200"        
     >
         <div className="w-full">
@@ -72,8 +73,11 @@ function App() {
                     </button>
                 </form>
             </div>
-        </div>
+        </div>       
     </div>
+    <h1 className='absolute bottom-0 text-center w-full text-blue-800 font-thin text-xl p-2'>higaurav.com</h1>
+  </>
+     
 );
 }
 
